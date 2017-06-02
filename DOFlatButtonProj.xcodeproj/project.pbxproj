@@ -14,6 +14,7 @@
 		7E8F5DA41EDEF9B200CB16AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F5DA21EDEF9B200CB16AE /* LaunchScreen.storyboard */; };
 		7E8F5DAF1EDEF9B200CB16AE /* DOFlatButtonProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F5DAE1EDEF9B200CB16AE /* DOFlatButtonProjTests.swift */; };
 		7E8F5DBA1EDEF9B200CB16AE /* DOFlatButtonProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F5DB91EDEF9B200CB16AE /* DOFlatButtonProjUITests.swift */; };
+		7E8F5DC81EDEF9D100CB16AE /* DOFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F5DC71EDEF9D100CB16AE /* DOFlatButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7E8F5DB51EDEF9B200CB16AE /* DOFlatButtonProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOFlatButtonProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8F5DB91EDEF9B200CB16AE /* DOFlatButtonProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOFlatButtonProjUITests.swift; sourceTree = "<group>"; };
 		7E8F5DBB1EDEF9B200CB16AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8F5DC71EDEF9D100CB16AE /* DOFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOFlatButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7E8F5D991EDEF9B200CB16AE /* AppDelegate.swift */,
 				7E8F5D9B1EDEF9B200CB16AE /* ViewController.swift */,
 				7E8F5D9D1EDEF9B200CB16AE /* Main.storyboard */,
+				7E8F5DC71EDEF9D100CB16AE /* DOFlatButton.swift */,
 				7E8F5DA01EDEF9B200CB16AE /* Assets.xcassets */,
 				7E8F5DA21EDEF9B200CB16AE /* LaunchScreen.storyboard */,
 				7E8F5DA51EDEF9B200CB16AE /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8F5DC81EDEF9D100CB16AE /* DOFlatButton.swift in Sources */,
 				7E8F5D9C1EDEF9B200CB16AE /* ViewController.swift in Sources */,
 				7E8F5D9A1EDEF9B200CB16AE /* AppDelegate.swift in Sources */,
 			);
